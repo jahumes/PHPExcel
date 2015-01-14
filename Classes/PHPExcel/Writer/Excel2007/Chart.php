@@ -1143,7 +1143,7 @@ class PHPExcel_Writer_Excel2007_Chart extends
     }
 
     $ci=-1;
-    $colorNDX = ["D86018","53565A","0076A8","78BE20"];
+    $colorNDX = ["53565A","0076A8","78BE20","D86018","78BE20","53565A","0076A8","D86018"];
 
     foreach ($plotSeriesOrder as $plotSeriesIdx => $plotSeriesRef) {
       $ci++;
