@@ -1241,11 +1241,11 @@ class PHPExcel_Writer_Excel2007_Chart extends
             $objWriter->writeAttribute('val', 3);
             $objWriter->endElement();
           }
-          $objWriter->startElement('a:solidFill');
-          $objWriter->startElement('a:srgbClr');
-          $objWriter->writeAttribute('val',$lineColor);
-          $objWriter->endElement();
-          $objWriter->endElement();
+          //$objWriter->startElement('a:solidFill');
+          //$objWriter->startElement('a:srgbClr');
+          //$objWriter->writeAttribute('val',$lineColor);
+          //$objWriter->endElement();
+          //$objWriter->endElement();
           $objWriter->endElement();
         }
       }
